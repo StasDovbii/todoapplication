@@ -1,0 +1,75 @@
+.title{
+
+ color: #ff9900; 
+ text-align: center;  
+}
+
+.app {
+    max-width: 380px;
+    text-align: center;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: rgb(186, 150, 243);
+    border: 3px solid #4e4e4e 
+}
+
+.app_heading{
+
+    color: #352f2c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16 px;
+}
+.newtodo{
+
+    color: #352f2c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16 px;
+}
+
+html{
+
+    
+background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(115,110,149,1) 45%, rgba(0,212,255,1) 100%);
+height: 100%;
+    
+}
+
+#filter_button{
+
+    text-align: center;
+}
+
+#filter{
+    text-align: center;
+}
+
+.fbutton {
+    background-color: #FFFFFF;
+      border: 1px solid #CCCCCC;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+      transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+          border-radius: 4px;
+      color: #555555;
+      display: inline;
+          width:80px;
+          margin: 20px auto;
+      font-size: 14px;
+          text-align:center;
+      height: 30px;
+      line-height: 20px;
+      margin-bottom: 10px;
+      padding: 4px 6px;
+      
+          text-decoration:none;
+  }
+  .fbutton:hover, .fbutton:focus {
+     border-color: rgba(82, 168, 236, 0.8);
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+     outline: 0 none;
+  }
+
+ #login{
+    align-content: center;
+  }
+
+  

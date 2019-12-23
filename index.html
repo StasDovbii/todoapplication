@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"  href="styles.css"/>
+    <title>State management</title>
+</head>
+
+<body>
+    <template  id="todo">
+        <section class = "app_input">
+
+        <h2 class = "app_heading">Список задач </h2>
+        
+        <form class="js-form">
+
+                <div class="boilerform">
+
+                    <div id="filter_button">
+                        <button  class="fbutton" id="show_all" >All</button>
+                        <button  class="fbutton" id="show_done">Done</button>
+                        <button  class="fbutton" id="show_notdone">Not done</button>
+                    </div>
+<div  class = "newtodo">Добавьте новую задачу</div>
+<input type = "text" class="inputtodo"  autocomplete="off"/>
+<button class="addtodo">Add</button> 
+               
+            
+            
+</div>
+        </form>
+        <div class = "js-items"></div>
+    </section>
+    <aside class="app_status">
+            <div class="app_decor js-count" aria-hidden="true">
+        <small>На сегодня </small>
+        <span id="count_all">0</span>
+        <small>задач</small>
+            </div>
+            <div class="app_decor js-count" aria-hidden="true">
+                <small>Выполнено </small>
+                <span id="count_done">0</span>
+                <small>задач</small>
+                    </div>
+                    <div class="app_decor js-count" aria-hidden="true">
+                        <small>Осталось </small>
+                        <span id="count_notdone">0</span>
+                        <small>задач</small>
+                            </div>
+    </aside>
+        </template>
+    <template  id="login">
+        <p >Введите email:</p>
+        <input  type="email"  id="email"/>
+        <p >Введите пароль:</p>
+        <input  type="password"  id="password" />
+        <div><button  class="fbutton" id="signIn">Вход</button></div>
+
+    </template>
+    <main>
+        <header class = "intro">
+
+            <h1 class = "title">ToDo</h1>
+        </header>
+            <section class="app" id ="app">
+               
+
+            </section>
+   
+
+    </main>
+    
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
+
