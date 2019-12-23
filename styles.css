@@ -4,6 +4,10 @@
  text-align: center;  
 }
 
+li {
+    list-style-type: none;
+}
+
 .app {
     max-width: 380px;
     text-align: center;
